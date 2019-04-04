@@ -1,0 +1,22 @@
+show run
+show vlan brief
+show spanning-tree
+show interface status
+show ether-channel summary
+show ip int bri | ex una
+show interface
+show int stats
+show ip route
+show ip protocols
+show power inline
+show cdp nei
+show cdp nei det
+show standby
+show clock
+show log
+show ip access
+show ver
+show inv
+show env all
+show flash:
+show switch

@@ -1,0 +1,53 @@
+term len 0
+!!!!!!!!! Show information about the Router !!!!!!!!
+show version
+show inventory
+show flash:
+show environment
+show process cpu history
+show process mem sorted
+show cdp neighbor detail
+show tech
+!!!!!!!!! See Interfaces !!!!!!!!!
+show ip interface brief
+show interfaces
+show ip interface
+!!!!!!!!! See Routing Information !!!!!!!!!
+show ip protocols
+show ip route 
+show ip route connected
+show ip route eigrp
+show ip route nhrp
+show ip route ospf
+show ip route rip
+show ip route bgp
+!!!!!!!!! Check for VRFs !!!!!!!!!
+show vrf
+show ip vrf
+!!!!!!!!! Routing Protocol Checks !!!!!!!!!
+show ip eigrp events
+show ip eigrp nei
+show ip eigrp top
+show ip eigrp interfaces
+show ip ospf neighbor
+show ip ospf interface
+show ip ospf database
+show ip ospf sham-links
+show ip ospf
+show ip bgp
+show ip bgp summary
+show ip bgp neighbors
+show ip bgp detail
+!!!!!!!!! DMVPN/NHRP !!!!!!!!!
+show dmvpn detail
+show ip nhrp detail
+show ip nhrp dynamic
+show ip nhrp static
+show ip nhrp nhs
+!!!!!!!!! VPN !!!!!!!!!
+show crypto isakmp sa detail
+show crypto ipsec sa detail
+show run | sec crypto
+show crypto tech-support
+!!!!!!!!! Access-Lists !!!!!!!!!
+show ip access-list
