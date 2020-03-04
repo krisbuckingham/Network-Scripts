@@ -8,19 +8,26 @@ import csv
 with open('District Inventory Worksheet.csv', newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',', quotechar='|')
     data = list(csvreader)
-#    print(data)
-i = 1
+
+data.pop(0)
 for row in data:
+
     if "n/a" in row:
         print("SFP - Skip")
-        break
+
     elif "Stack Standby" in row:
-        print("Stack Standby")
-        break
+        print("Standby Switch Skip")
+
     else:
-        print(row[3])
-        f = open(row[6] + 'config' + '.txt', 'a')
-        f.write('management ip ' + row[3])
+        # print('hello')
+        # f = open('testfile.txt', 'a')
+        # f.write('management ip ' + row[4])
+        # f.close()
+        # print(row[7])
+        f = open(row[7] + 'config' + '.txt', 'a')
+        f.write('interface vlan ' + row[3] + '\r')
+        f.write('ip address ' + row[4] + ' ' + row[5])
+        f.write('exit')
         f.close()
 
 
