@@ -1,0 +1,685 @@
+{
+    "items": [
+        {
+            "description": " ",
+            "id": "cb7116e8-66a6-480b-8f9b-295191a0940a",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/cb7116e8-66a6-480b-8f9b-295191a0940a"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "any-ipv4",
+            "overridable": false,
+            "type": "Network",
+            "value": "0.0.0.0/0"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-008589935314",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-008589935314"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1561386594113
+            },
+            "name": "AnyConnect-Subnet",
+            "overridable": false,
+            "type": "Network",
+            "value": "192.168.100.64/26"
+        },
+        {
+            "description": " ",
+            "id": "86caab8a-9bdd-420d-858b-5690fde8ce58",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/86caab8a-9bdd-420d-858b-5690fde8ce58"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "IPv4-Benchmark-Tests",
+            "overridable": false,
+            "type": "Network",
+            "value": "198.18.0.0/15"
+        },
+        {
+            "description": " ",
+            "id": "f0ce41ae-6ee9-4e00-8762-da9370c4fee5",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/f0ce41ae-6ee9-4e00-8762-da9370c4fee5"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "IPv4-Link-Local",
+            "overridable": false,
+            "type": "Network",
+            "value": "169.254.0.0/16"
+        },
+        {
+            "description": " ",
+            "id": "5622db1c-5cd5-4199-a4c8-d8f86dec3bd4",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/5622db1c-5cd5-4199-a4c8-d8f86dec3bd4"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "IPv4-Multicast",
+            "overridable": false,
+            "type": "Network",
+            "value": "224.0.0.0/4"
+        },
+        {
+            "description": " ",
+            "id": "95916354-5aa1-4057-8eea-b42a5a207abc",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/95916354-5aa1-4057-8eea-b42a5a207abc"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "IPv4-Private-10.0.0.0-8",
+            "overridable": false,
+            "type": "Network",
+            "value": "10.0.0.0/8"
+        },
+        {
+            "description": " ",
+            "id": "b7a78a7d-20c5-47b2-b02f-86b4360112ac",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/b7a78a7d-20c5-47b2-b02f-86b4360112ac"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "IPv4-Private-172.16.0.0-12",
+            "overridable": false,
+            "type": "Network",
+            "value": "172.16.0.0/12"
+        },
+        {
+            "description": " ",
+            "id": "1dcefdd8-07f7-438a-9221-97d63710614e",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/1dcefdd8-07f7-438a-9221-97d63710614e"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "IPv4-Private-192.168.0.0-16",
+            "overridable": false,
+            "type": "Network",
+            "value": "192.168.0.0/16"
+        },
+        {
+            "description": " ",
+            "id": "1047b91f-db3a-45b8-9c10-f48ed3f0c3d6",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/1047b91f-db3a-45b8-9c10-f48ed3f0c3d6"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_6",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "IPv6-IPv4-Mapped",
+            "overridable": false,
+            "type": "Network",
+            "value": "::ffff:0.0.0.0/96"
+        },
+        {
+            "description": " ",
+            "id": "192c14f2-39d9-409d-81e9-357793bdf1ec",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/192c14f2-39d9-409d-81e9-357793bdf1ec"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_6",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "IPv6-Link-Local",
+            "overridable": false,
+            "type": "Network",
+            "value": "fe80::/10"
+        },
+        {
+            "description": " ",
+            "id": "0434674f-87f8-4e17-810e-97100407858b",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/0434674f-87f8-4e17-810e-97100407858b"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_6",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "IPv6-Private-Unique-Local-Addresses",
+            "overridable": false,
+            "type": "Network",
+            "value": "fc00::/7"
+        },
+        {
+            "description": " ",
+            "id": "04ea3f1f-f5a9-4eca-b051-487ebeb4c97f",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/04ea3f1f-f5a9-4eca-b051-487ebeb4c97f"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "readOnly": {
+                    "reason": "SYSTEM",
+                    "state": true
+                },
+                "timestamp": 1554965580760
+            },
+            "name": "IPv6-to-IPv4-Relay-Anycast",
+            "overridable": false,
+            "type": "Network",
+            "value": "192.88.99.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-008589935332",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-008589935332"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1561386614903
+            },
+            "name": "Lab-VLAN1",
+            "overridable": false,
+            "type": "Network",
+            "value": "192.168.219.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902120",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902120"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565036917763
+            },
+            "name": "Lab-VLAN10",
+            "overridable": false,
+            "type": "Network",
+            "value": "192.168.220.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902265",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902265"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565037195206
+            },
+            "name": "Lab-VLAN100",
+            "overridable": false,
+            "type": "Network",
+            "value": "172.16.100.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902283",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902283"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565037214030
+            },
+            "name": "Lab-VLAN101",
+            "overridable": false,
+            "type": "Network",
+            "value": "172.16.101.0/25"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902355",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902355"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565037314100
+            },
+            "name": "Lab-VLAN140",
+            "overridable": false,
+            "type": "Network",
+            "value": "192.168.140.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902373",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902373"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565037329440
+            },
+            "name": "Lab-VLAN150",
+            "overridable": false,
+            "type": "Network",
+            "value": "192.168.150.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902319",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902319"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565037269783
+            },
+            "name": "Lab-VLAN1720",
+            "overridable": false,
+            "type": "Network",
+            "value": "172.31.255.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902301",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902301"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565037243570
+            },
+            "name": "Lab-VLAN1721",
+            "overridable": false,
+            "type": "Network",
+            "value": "172.31.254.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902337",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902337"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565037297283
+            },
+            "name": "Lab-VLAN20",
+            "overridable": false,
+            "type": "Network",
+            "value": "192.168.20.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902138",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902138"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565036949130
+            },
+            "name": "Lab-VLAN2101",
+            "overridable": false,
+            "type": "Network",
+            "value": "10.100.1.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902156",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902156"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565036969650
+            },
+            "name": "Lab-VLAN2102",
+            "overridable": false,
+            "type": "Network",
+            "value": "10.100.2.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902174",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902174"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565037000600
+            },
+            "name": "Lab-VLAN2103",
+            "overridable": false,
+            "type": "Network",
+            "value": "10.100.3.0/24"
+        },
+        {
+            "description": " ",
+            "id": "00505686-0835-0ed3-0000-012884902211",
+            "links": {
+                "parent": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+                "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/00505686-0835-0ed3-0000-012884902211"
+            },
+            "metadata": {
+                "domain": {
+                    "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+                    "name": "Global",
+                    "type": "Domain"
+                },
+                "ipType": "V_4",
+                "lastUser": {
+                    "name": "apiadmin"
+                },
+                "parentType": "NetworkAddress",
+                "timestamp": 1565037019396
+            },
+            "name": "Lab-VLAN2104",
+            "overridable": false,
+            "type": "Network",
+            "value": "10.100.4.0/24"
+        }
+    ],
+    "links": {
+        "self": "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks?offset=0&limit=25&expanded=true"
+    },
+    "paging": {
+        "count": 28,
+        "limit": 25,
+        "next": [
+            "https://192.168.219.67/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks?offset=25&limit=3&expanded=true"
+        ],
+        "offset": 0,
+        "pages": 2
+    }
+}
